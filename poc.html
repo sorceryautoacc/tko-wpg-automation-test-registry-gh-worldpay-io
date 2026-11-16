@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>0daystolive takeover poc</title>
+</head>
+<body>
+<h1>0daystolive takeover poc</h1>
+<button id="pop">pop alert(document.domain)</button>
+<script>
+document.getElementById('pop').addEventListener('click', function () {
+  alert(document.domain);
+});
+</script>
+</body>
+</html>
